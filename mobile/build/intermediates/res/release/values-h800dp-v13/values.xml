@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/src/main/res/values-h800dp/dimens.xml -->
+    <eat-comment/>
+    <dimen name="media_item_height">96dp</dimen>
+</resources>

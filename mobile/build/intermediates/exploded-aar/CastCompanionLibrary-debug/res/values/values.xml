@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/usr/local/google/home/anaddaf/Development/workspace-github/new/CastCompanionLibrary/res/values/arrays.xml -->
+    <eat-comment/>
+    <string-array name="ccl_prefs_caption_color_names">
+        <item>White</item>
+        <item>Black</item>
+        <item>Red</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Cyan</item>
+        <item>Blue</item>
+        <item>Magenta</item>
+    </string-array>
+    <string-array name="ccl_prefs_caption_color_values">
+        <item>#FFFFFF</item> <!-- white -->
+        <item>#000000</item> <!-- black -->
+        <item>#FF0000</item> <!-- red -->
+        <item>#FFFF00</item> <!-- yellow -->
+        <item>#00FF00</item> <!-- green -->
+        <item>#00FFFF</item> <!-- cyan -->
+        <item>#0000FF</item> <!-- blue -->
+        <item>#FF00FF</item> <!-- magenta -->
+    </string-array>
+    <string-array name="ccl_prefs_caption_edge_type_names">
+        <item>None</item>
+        <item>Outline</item>
+        <item>Drop Shadow</item>
+    </string-array>
+    <string-array name="ccl_prefs_caption_edge_type_values">
+        <item>EDGE_TYPE_NONE</item>
+        <item>EDGE_TYPE_OUTLINE</item>
+        <item>EDGE_TYPE_DROP_SHADOW</item>
+    </string-array>
+    <string-array name="ccl_prefs_caption_font_family_names">
+        <item>San-serif</item>
+        <item>Serif</item>
+        <item>Monospace</item>
+    </string-array>
+    <string-array name="ccl_prefs_caption_font_family_values">
+        <item>FONT_FAMILY_SANS_SERIF</item>
+        <item>FONT_FAMILY_SERIF</item>
+        <item>FONT_FAMILY_MONOSPACED_SANS_SERIF</item>
+    </string-array>
+    <string-array name="ccl_prefs_caption_font_scale_names">
+        <item>Very Small</item>
+        <item>Small</item>
+        <item>Normal</item>
+        <item>Large</item>
+        <item>Very Large</item>
+    </string-array>
+    <string-array name="ccl_prefs_caption_font_scale_values">
+        <item>0.5</item>
+        <item>0.75</item>
+        <item>1.0</item>
+        <item>1.5</item>
+        <item>2.0</item>
+    </string-array>
+    <string-array name="ccl_prefs_caption_opacity_names">
+        <item>25%</item>
+        <item>50%</item>
+        <item>75%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="ccl_prefs_caption_opacity_values">
+        <item>3F</item>
+        <item>80</item>
+        <item>BF</item>
+        <item>FF</item>
+    </string-array>
+    <!-- From: file:/usr/local/google/home/anaddaf/Development/workspace-github/new/CastCompanionLibrary/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="ccl_cast_activity_background_color">#000000</color>
+    <color name="ccl_cast_activity_line1_text_color">#E5FFFFFF</color>
+    <color name="ccl_cast_activity_line2_text_color">#E5AAAAAA</color>
+    <color name="ccl_cast_activity_progress_text_color">#E5FFFFFF</color>
+    <color name="ccl_cast_activity_text_color">#FFFFFF</color>
+    <color name="ccl_mr_custom_line_1">#FFFFFF</color>
+    <color name="ccl_mr_custom_line_2">#AAFFFFFF</color>
+    <color name="ccl_mr_custom_title">#33b5e5</color>
+    <!-- From: file:/usr/local/google/home/anaddaf/Development/workspace-github/new/CastCompanionLibrary/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="ccl_captions_dialog_no_message_text_size">18sp</dimen>
+    <dimen name="ccl_captions_dialog_row_text_size">18sp</dimen>
+    <dimen name="ccl_mini_controller_font_size_line1">15sp</dimen>
+    <dimen name="ccl_mini_controller_font_size_line2">13sp</dimen>
+    <dimen name="ccl_mini_controller_icon_height">50dp</dimen>
+    <dimen name="ccl_mini_controller_icon_width">89dp</dimen>
+    <dimen name="ccl_notification_image_size">75dp</dimen>
+    <dimen name="ccl_pageview_width">300dp</dimen>
+    <!-- From: file:/usr/local/google/home/anaddaf/Development/workspace-github/new/CastCompanionLibrary/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="ccl_cancel">Cancel</string>
+    <!-- From: file:/usr/local/google/home/anaddaf/Development/workspace-github/new/CastCompanionLibrary/res/values/captions.xml -->
+    <eat-comment/>
+    <string name="ccl_caption">Caption</string>
+    <string name="ccl_caption_audio">Audio</string>
+    <string name="ccl_caption_no_audio_tracks">No Audio Tracks Available</string>
+    <string name="ccl_caption_no_text_tracks">No Text Tracks Available</string>
+    <string name="ccl_caption_no_tracks_available"> No tracks available</string>
+    <string name="ccl_caption_subtitles">Subtitles</string>
+    <!-- From: file:/usr/local/google/home/anaddaf/Development/workspace-github/new/CastCompanionLibrary/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="ccl_casting_to_device">Casting to %1$s</string>
+    <string name="ccl_disconnect">Disconnect</string>
+    <string name="ccl_error">Error</string>
+    <string name="ccl_failed_authorization_timeout">Authorization timed out</string>
+    <string name="ccl_failed_no_connection">No connection to the cast device is present</string>
+    <string name="ccl_failed_no_connection_short">No connection</string>
+    <string name="ccl_failed_no_connection_trans">Connection to the cast device has been lost. Application is trying to re-establish the connection, if possible. Please wait for a few seconds and try again.</string>
+    <string name="ccl_failed_perform_action">Failed to perform the action</string>
+    <string name="ccl_failed_receiver_player_error">Receiver player has encountered a severe error</string>
+    <string name="ccl_failed_seek">Failed to seek to the new position on the cast device</string>
+    <string name="ccl_failed_setting_volume">Failed to set the volume</string>
+    <string name="ccl_failed_status_request">Failed to sync up with the cast device</string>
+    <string name="ccl_failed_to_pause">Failed to pause the playback of media</string>
+    <string name="ccl_failed_to_play">Failed to start the playback of media</string>
+    <string name="ccl_failed_to_set_track_style">Failed to update the captions style.</string>
+    <string name="ccl_failed_to_stop">Failed to stop the playback of media</string>
+    <string name="ccl_info_na">Information Not Available</string>
+    <!-- From: file:/usr/local/google/home/anaddaf/Development/workspace-github/new/CastCompanionLibrary/res/values/captions.xml -->
+    <eat-comment/>
+    <string name="ccl_key_caption_background_color">ccl_caption_background_color</string>
+    <string name="ccl_key_caption_background_opacity">ccl_caption_font_background_opacity</string>
+    <string name="ccl_key_caption_edge_type">ccl_caption_edge_type</string>
+    <string name="ccl_key_caption_enabled">ccl_caption_enabled</string>
+    <string name="ccl_key_caption_font_family">ccl_caption_font_family</string>
+    <string name="ccl_key_caption_font_scale">ccl_caption_font_scale</string>
+    <string name="ccl_key_caption_text_color">ccl_caption_text_color</string>
+    <string name="ccl_key_caption_text_opacity">ccl_caption_text_opacity</string>
+    <!-- From: file:/usr/local/google/home/anaddaf/Development/workspace-github/new/CastCompanionLibrary/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="ccl_live">Live</string>
+    <string name="ccl_loading">Loading…</string>
+    <string name="ccl_media_route_menu_title">Play on…</string>
+    <string name="ccl_no_media_info">No media information available</string>
+    <string name="ccl_none">None</string>
+    <string name="ccl_off">Off</string>
+    <string name="ccl_ok">OK</string>
+    <string name="ccl_on">On</string>
+    <string name="ccl_pause">Pause</string>
+    <!-- From: file:/usr/local/google/home/anaddaf/Development/workspace-github/new/CastCompanionLibrary/res/values/captions.xml -->
+    <eat-comment/>
+    <string name="ccl_pick_tracks">Tracks</string>
+    <string name="ccl_prefs_caption_background_color_title">Background Color</string>
+    <string name="ccl_prefs_caption_background_color_value_default">#000000</string>
+    <string name="ccl_prefs_caption_background_opacity_title">Background Opacity</string>
+    <string name="ccl_prefs_caption_background_opacity_value_default">FF</string>
+    <string name="ccl_prefs_caption_disabled">Disabled</string>
+    <string name="ccl_prefs_caption_edge_color_title">Edge Color</string>
+    <string name="ccl_prefs_caption_edge_type_title">Edge Type</string>
+    <string name="ccl_prefs_caption_edge_type_value_default">EDGE_TYPE_NONE</string>
+    <string name="ccl_prefs_caption_enabled">Enabled</string>
+    <string name="ccl_prefs_caption_enabled_title">Caption Availability</string>
+    <string name="ccl_prefs_caption_font_family_title">Font Family</string>
+    <string name="ccl_prefs_caption_font_family_value_default">FONT_FAMILY_SERIF</string>
+    <string name="ccl_prefs_caption_font_scale_title">Text Size</string>
+    <string name="ccl_prefs_caption_font_scale_value_default">1.0</string>
+    <string name="ccl_prefs_caption_text_color_title">Text Color</string>
+    <string name="ccl_prefs_caption_text_color_value_default">#FFFFFF</string>
+    <string name="ccl_prefs_caption_text_opacity_title">Text Opacity</string>
+    <string name="ccl_prefs_caption_text_opacity_value_default">FF</string>
+    <!-- From: file:/usr/local/google/home/anaddaf/Development/workspace-github/new/CastCompanionLibrary/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="ccl_version">2.0</string>
+    <!-- From: file:/usr/local/google/home/anaddaf/Development/workspace-github/new/CastCompanionLibrary/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="CCLCastDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowTitleStyle">@style/CCLCastDialogWindowTitle</item>
+    </style>
+    <style name="CCLCastDialogWindowTitle">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/ccl_mr_custom_title</item>
+    </style>
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-9602e6cf12325c1d4904ca16e45916585d0c6e6b.jar" />
+    </item>
+    <item
+        jar="/home/soumya/Documents/android-studio-projects/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-1ef9296f380921366ed2f25867fd80e92d29c973.jar" />
+    </item>
+    <item
+        jar="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/pre-dexed/debug/classes-fd4bc7b9d49ed762d1a41e44450c8aa3aa7cb137.jar" />
+    </item>
+    <item
+        jar="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/exploded-aar/CastCompanionLibrary-debug/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="aa8785edb9046d76d7bf20f925ae6d4e3907f61c">
+        <dex dex="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/pre-dexed/debug/classes-89f4faa34c558540d1f50d6ec33d030031f33073.jar" />
+    </item>
+    <item
+        jar="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/exploded-aar/com.github.amlcurran.showcaseview/library/5.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8b3d9a7b348d8bcfb4d740dfaf70bc374cdae9d6">
+        <dex dex="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/pre-dexed/debug/classes-fc9f40e0449c8d5c3b2cac5bc9f6cd9326dc3de9.jar" />
+    </item>
+    <item
+        jar="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/pre-dexed/debug/classes-3c0ae10d058eee3f7ce45ee1fdbec5bc535f4c38.jar" />
+    </item>
+    <item
+        jar="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/pre-dexed/debug/classes-1ea77c5ef4d547129601e635bcd2de3196b9b962.jar" />
+    </item>
+    <item
+        jar="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="11842de6a309c447b3a3d60d73ad637a87c58994">
+        <dex dex="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/pre-dexed/debug/classes-7e7c86529a6de9cf025d87d6cfe3cd9f6c77f70b.jar" />
+    </item>
+    <item
+        jar="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/pre-dexed/debug/classes-ec971a822c06e7f075c3960c57e289c7c0b50e06.jar" />
+    </item>
+    <item
+        jar="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/exploded-aar/com.chrisanderson.mediabrowsercompat/library/0.0.2/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4e2e20697b271f2530954059d61a622a5a9b4388">
+        <dex dex="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/pre-dexed/debug/classes-84e10fa63138206c9511fffb199f446f80bf73ce.jar" />
+    </item>
+    <item
+        jar="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/pre-dexed/debug/classes-1571f51c64ae9c5896a62281b8fff30262633d32.jar" />
+    </item>
+    <item
+        jar="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-fbe30cbe01282b78c9084c5a60d15fa8fa3f7d0a.jar" />
+    </item>
+
+</items>
