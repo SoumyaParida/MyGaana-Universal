@@ -32,8 +32,8 @@ public class DrawerMenuContents {
     private Class[] activities;
 
     public DrawerMenuContents(Context ctx) {
-        activities = new Class[2];
-        items = new ArrayList<>(2);
+        activities = new Class[3];
+        items = new ArrayList<>(3);
 
         activities[0] = MusicPlayerActivity.class;
         items.add(populateDrawerItem(ctx.getString(R.string.drawer_allmusic_title),
@@ -42,6 +42,10 @@ public class DrawerMenuContents {
         activities[1] = PlaceholderActivity.class;
         items.add(populateDrawerItem(ctx.getString(R.string.drawer_playlists_title),
             R.drawable.ic_playlist_music_black_24dp));
+
+        activities[2] = login_activity.class;
+        items.add(populateDrawerItem(ctx.getString(R.string.drawer_playlists_Profile),
+                R.drawable.contacts));
     }
 
     public List<Map<String, ?>> getItems() {

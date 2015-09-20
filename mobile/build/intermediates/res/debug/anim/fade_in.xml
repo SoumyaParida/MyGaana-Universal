@@ -20,4 +20,4 @@
        android:toAlpha="1.0"
        android:duration="@android:integer/config_shortAnimTime"
     />
-<!-- From: file:/home/soumya/Documents/web/MyGaana-Universal/mobile/src/main/res/anim/fade_in.xml -->
+<!-- From: file:/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/src/main/res/anim/fade_in.xml -->

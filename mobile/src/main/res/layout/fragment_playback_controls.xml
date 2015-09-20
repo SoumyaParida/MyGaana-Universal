@@ -69,6 +69,16 @@
             android:visibility="gone"
             android:contentDescription="@string/currently_playing_extra_info"
             android:textAppearance="?android:attr/textAppearanceSmall"/>
+        <ImageButton
+            android:id="@+id/playlist"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/item_background"
+            android:src="@drawable/ic_action"/>
     </LinearLayout>
     <ImageButton
         android:id="@+id/play_pause"

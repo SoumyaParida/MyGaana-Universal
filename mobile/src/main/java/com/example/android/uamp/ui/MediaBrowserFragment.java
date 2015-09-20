@@ -28,11 +28,14 @@ import android.support.v4.media.MediaMetadataCompat;
 import android.support.v4.media.browse.MediaBrowserCompat;
 import android.support.v4.media.session.MediaControllerCompat;
 import android.support.v4.media.session.PlaybackStateCompat;
+import android.view.ContextMenu;
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -157,6 +160,8 @@ public class MediaBrowserFragment extends Fragment {
         mBrowserAdapter = new BrowseAdapter(getActivity(), (MediaControllerProvider) getActivity());
 
         ListView listView = (ListView) rootView.findViewById(R.id.list_view);
+       /* ImageView image=(ImageView)rootView.findViewById(R.id.addPlayList);*/
+
         listView.setAdapter(mBrowserAdapter);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -167,8 +172,32 @@ public class MediaBrowserFragment extends Fragment {
             }
         });
 
+        registerForContextMenu(listView);
+
         return rootView;
     }
+
+    public void onCreateContextMenu(ContextMenu menu, View v,ContextMenu.ContextMenuInfo menuInfo) {
+        super.onCreateContextMenu(menu, v, menuInfo);
+        menu.setHeaderTitle("Playlist");
+        menu.add(0, v.getId(), 0, "Add to playlist");
+        menu.add(0, v.getId(), 0, "Delete from playlist");
+    }
+
+/*    @Override
+    public boolean onContextItemSelected(MenuItem item) {
+        if(item.getTitle()=="Action 1"){function1(item.getItemId());}
+        else if(item.getTitle()=="Action 2"){function2(item.getItemId());}
+        else {return false;}
+        return true;
+    }
+
+    public void function1(int id){
+        Toast.makeText();
+    }
+    public void function2(int id){
+        Toast.makeText(this, "function 2 called", Toast.LENGTH_SHORT).show();
+    }*/
 
     @Override
     public void onStart() {

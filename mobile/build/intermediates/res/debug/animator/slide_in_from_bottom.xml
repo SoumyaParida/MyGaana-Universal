@@ -21,4 +21,4 @@
         android:valueType="floatType"
         android:valueFrom="2000"
         android:valueTo="0"/>
-</set><!-- From: file:/home/soumya/Documents/web/MyGaana-Universal/mobile/src/main/res/animator/slide_in_from_bottom.xml -->
+</set><!-- From: file:/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/src/main/res/animator/slide_in_from_bottom.xml -->

@@ -13,15 +13,23 @@
   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   See the License for the specific language governing permissions and
   limitations under the License.
-  -->
+-->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.android.uamp" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+
+
 
     <uses-feature
         android:name="android.software.leanback"
@@ -29,36 +37,50 @@
     <uses-feature
         android:name="android.hardware.touchscreen"
         android:required="false" />
-    <uses-sdk
-        android:minSdkVersion="14"
-        android:targetSdkVersion="21" />
 
+<!--    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />-->
+
+    <!--
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    -->
+    <!--
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    -->
     <application
         android:name=".UAMPApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/UAmpAppTheme" >
-
         <meta-data
             android:name="com.google.android.gms.car.application"
             android:resource="@xml/automotive_app_desc" />
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
+        <meta-data android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
 
         <!-- Main activity for music browsing on phone -->
         <activity
             android:name=".ui.MusicPlayerActivity"
-            android:label="@string/app_name">
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
             <!-- Use this intent filter to get voice searches, like "Play The Beatles" -->
             <intent-filter>
                 <action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -66,15 +88,18 @@
         <!-- Placeholder activity for phone UI -->
         <activity
             android:name=".ui.PlaceholderActivity"
-            android:label="@string/app_name">
+            android:label="@string/app_name" >
         </activity>
 
-        <!-- Proxy activity that opens either the NowPlaying TV or the mobile UI, depending on
+
+        <!--
+        Proxy activity that opens either the NowPlaying TV or the mobile UI, depending on
         the current environment
-        TODO:  TV is not yet supported, this is just a placeholder! -->
+        TODO:  TV is not yet supported, this is just a placeholder!
+        -->
         <activity
             android:name=".ui.NowPlayingActivity"
-            android:icon="@drawable/ic_launcher">
+            android:icon="@drawable/ic_launcher" >
         </activity>
 
         <!--
@@ -95,13 +120,15 @@
             android:name="com.google.android.gms.car.application.theme"
             android:resource="@style/CarTheme" />
 
-        <!-- Main music service, provides media browsing and media playback services to
+        <!--
+         Main music service, provides media browsing and media playback services to
          consumers through MediaBrowserService and MediaSession. Consumers connect to it through
-         MediaBrowser (for browsing) and MediaController (for play session control) -->
+         MediaBrowser (for browsing) and MediaController (for play session control)
+        -->
         <service
             android:name=".MusicService"
             android:exported="true"
-            tools:ignore="ExportedService">
+            tools:ignore="ExportedService" >
             <intent-filter>
                 <action android:name="android.media.browse.MediaBrowserServiceCompat" />
             </intent-filter>
@@ -109,21 +136,57 @@
 
         <receiver android:name=".MediaButtonReceiver" />
 
-
         <!-- Service that keeps track of reconnecting to Cast when wifi is enabled. -->
-        <service
-            android:name="com.google.android.libraries.cast.companionlibrary.cast.reconnection.ReconnectionService"/>
+        <service android:name="com.google.android.libraries.cast.companionlibrary.cast.reconnection.ReconnectionService" />
 
-        <!-- A full screen activity showing controls and a seek bar for
-             the current playing music -->
+        <!--
+             A full screen activity showing controls and a seek bar for
+             the current playing music
+        -->
         <activity
             android:name=".ui.FullScreenPlayerActivity"
             android:label="@string/app_name"
             android:launchMode="singleTop"
-            android:parentActivityName=".ui.MusicPlayerActivity">
+            android:parentActivityName=".ui.MusicPlayerActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".ui.MusicPlayerActivity"/>
+                android:value=".ui.MusicPlayerActivity" />
+        </activity>
+        <activity
+            android:name=".ui.login_activity"
+            android:label="@string/title_activity_login_activity" >
+            <meta-data
+                android:name="com.google.android.gms.version"
+                android:value="@integer/google_play_services_version" />
+        </activity>
+
+        <activity android:name="com.facebook.FacebookActivity"
+            android:configChanges=
+                "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:label="@string/app_name" />
+
+        <!--
+            <activity
+            android:name=".loginInfo"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        -->
+
+
+        <!--
+            <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
+        -->
+
+        <activity
+            android:name=".ui.profile_upload"
+            android:label="@string/title_activity_profile_upload" >
         </activity>
     </application>
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- From: file:/home/soumya/Documents/web/MyGaana-Universal/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-my-rMM/values.xml -->
+    <!-- From: file:/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-my-rMM/values.xml -->
     <eat-comment/>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"မူလနေရာကို သွားရန်"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s၊ %2$s"</string>
@@ -18,7 +18,7 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"မျှဝေဖို့ ရွေးပါ"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"%s ကို မျှဝေပါရန်"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"ခေါက်ရန်"</string>
-    <!-- From: file:/home/soumya/Documents/web/MyGaana-Universal/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values-my-rMM/common_strings.xml -->
+    <!-- From: file:/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values-my-rMM/common_strings.xml -->
     <eat-comment/>
     <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"အပလီကေးရှင်း တစ်ခုက အန်ဒရွိုက် ဆောင်စရာ appကို မွမ်းမံပေးရန်ကို တောင်းဆိုနေသည်။"</string>
     <string msgid="3046420540094071256" name="common_android_wear_update_text">"သင်က အန်ဒရွိုက် ဆောင်စရာ appကို မွမ်းမံ မပေးမချင်း ဒီapp အလုပ်လုပ်မည် မဟုတ်ပါ။"</string>
@@ -51,7 +51,7 @@
     <string msgid="9071884888741449141" name="common_signin_button_text">"လင်မှတ်ထိုး ဝင်"</string>
     <string msgid="2429381841831957106" name="common_signin_button_text_long">"Google ဖြင့် လက်မှတ်ထို ဝင်"</string>
     <string msgid="5000919058582214855" name="commono_google_play_services_api_unavailable_text">"ဒီappသည် လက်ရှိအချိန်မှာ မရှိသေးသည့် Google ပလေး ဝန်ဆောင်မှုများကို လိုအပ်သည်။ ကျေးဇူးပြုပြီး အကူအညီရယူရန် ပြုစုသူကို ဆက်သွယ်ပါ။"</string>
-    <!-- From: file:/home/soumya/Documents/web/MyGaana-Universal/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/values-my-rMM/values.xml -->
+    <!-- From: file:/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/res/values-my-rMM/values.xml -->
     <eat-comment/>
     <string msgid="8327680881775995150" name="mr_media_route_button_content_description">"သရုပ်ဆောင်​များ"</string>
     <string msgid="7553005460920830010" name="mr_media_route_chooser_searching">"စက်ပစ္စည်းများကို ရှာဖွေနေပါသည်"</string>

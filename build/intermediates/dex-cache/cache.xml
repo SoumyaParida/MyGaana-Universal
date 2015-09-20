@@ -2,88 +2,221 @@
 <items version="2" >
 
     <item
-        jar="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jar="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/pre-dexed/debug/classes-6248d6ae69e280ecdb4ed0416e3c6d49a5a2901a.jar" />
+    </item>
+    <item
+        jar="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/pre-dexed/debug/classes-a06f26a1bcf81e5786d862191a235327db8f6745.jar" />
+    </item>
+    <item
+        jar="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/pre-dexed/debug/classes-15ef8596b3baef5461b1a360c49f8d3f5ecc1584.jar" />
+    </item>
+    <item
+        jar="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/pre-dexed/debug/classes-bb4e782103a2f46a4bfa4a2d0e88ce2d3e216280.jar" />
+    </item>
+    <item
+        jar="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/pre-dexed/debug/classes-91d34cf4b1886b34a7b4fb8884bd091afac55aef.jar" />
+    </item>
+    <item
+        jar="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-6f8b9710813f03a45fcdb3f84bfb828e5efb04f8.jar" />
+    </item>
+    <item
+        jar="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/pre-dexed/debug/classes-4669a6ead9d8bfcc1d2343e54f3625416180cbff.jar" />
+    </item>
+    <item
+        jar="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/pre-dexed/debug/classes-e860c1de78de0507bb7af5002b3316a322f2e647.jar" />
+    </item>
+    <item
+        jar="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/exploded-aar/com.chrisanderson.mediabrowsercompat/library/0.0.2/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4e2e20697b271f2530954059d61a622a5a9b4388">
+        <dex dex="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/pre-dexed/debug/classes-b31187887bd042dd3b987b874ffe65d39f978274.jar" />
+    </item>
+    <item
+        jar="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/pre-dexed/debug/classes-ffe8eb88263d33f89c56af89cfb7e99ac175bad8.jar" />
+    </item>
+    <item
+        jar="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/pre-dexed/debug/classes-0c3fea3e62f9c34b3c8a9af601a6eb732199514d.jar" />
+    </item>
+    <item
+        jar="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/pre-dexed/debug/classes-68b517b4726841f47b58ef0a3dd1a80b494d9a1e.jar" />
+    </item>
+    <item
+        jar="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
-        <dex dex="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-9602e6cf12325c1d4904ca16e45916585d0c6e6b.jar" />
+        <dex dex="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-e7d6d05ce7b06beaba84980e4e7dce36999503aa.jar" />
+    </item>
+    <item
+        jar="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/pre-dexed/debug/classes-cab4ef7b987970406a2618314f22cf3b9888a3ee.jar" />
+    </item>
+    <item
+        jar="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/pre-dexed/debug/classes-b5b335c93c439ea052b7552bfdddd50422f71785.jar" />
     </item>
     <item
         jar="/home/soumya/Documents/android-studio-projects/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
-        <dex dex="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-1ef9296f380921366ed2f25867fd80e92d29c973.jar" />
+        <dex dex="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-1ef9296f380921366ed2f25867fd80e92d29c973.jar" />
     </item>
     <item
-        jar="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
-        <dex dex="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/pre-dexed/debug/classes-fd4bc7b9d49ed762d1a41e44450c8aa3aa7cb137.jar" />
-    </item>
-    <item
-        jar="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/exploded-aar/CastCompanionLibrary-debug/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="aa8785edb9046d76d7bf20f925ae6d4e3907f61c">
-        <dex dex="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/pre-dexed/debug/classes-89f4faa34c558540d1f50d6ec33d030031f33073.jar" />
-    </item>
-    <item
-        jar="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/exploded-aar/com.github.amlcurran.showcaseview/library/5.0.0/classes.jar"
+        jar="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/exploded-aar/com.github.amlcurran.showcaseview/library/5.0.0/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="8b3d9a7b348d8bcfb4d740dfaf70bc374cdae9d6">
-        <dex dex="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/pre-dexed/debug/classes-fc9f40e0449c8d5c3b2cac5bc9f6cd9326dc3de9.jar" />
+        <dex dex="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/pre-dexed/debug/classes-b683b0b759d1f85c8ae8c54eb585f9002645e214.jar" />
     </item>
     <item
-        jar="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/classes.jar"
+        jar="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.0.0/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
-        <dex dex="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/pre-dexed/debug/classes-3c0ae10d058eee3f7ce45ee1fdbec5bc535f4c38.jar" />
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/pre-dexed/debug/classes-c7d313d23028eeda1090442359397a553c42a5ff.jar" />
     </item>
     <item
-        jar="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.0.0/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
-        <dex dex="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/pre-dexed/debug/classes-1ea77c5ef4d547129601e635bcd2de3196b9b962.jar" />
-    </item>
-    <item
-        jar="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.0.0/classes.jar"
+        jar="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.0.0/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="11842de6a309c447b3a3d60d73ad637a87c58994">
-        <dex dex="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/pre-dexed/debug/classes-7e7c86529a6de9cf025d87d6cfe3cd9f6c77f70b.jar" />
+        <dex dex="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/pre-dexed/debug/classes-bb48556980675f7bc8077ccd5d0b977266a4613e.jar" />
     </item>
     <item
-        jar="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
-        <dex dex="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/pre-dexed/debug/classes-ec971a822c06e7f075c3960c57e289c7c0b50e06.jar" />
-    </item>
-    <item
-        jar="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/exploded-aar/com.chrisanderson.mediabrowsercompat/library/0.0.2/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="4e2e20697b271f2530954059d61a622a5a9b4388">
-        <dex dex="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/pre-dexed/debug/classes-84e10fa63138206c9511fffb199f446f80bf73ce.jar" />
-    </item>
-    <item
-        jar="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jar="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
-        <dex dex="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/pre-dexed/debug/classes-1571f51c64ae9c5896a62281b8fff30262633d32.jar" />
+        <dex dex="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/pre-dexed/debug/classes-c94846714318013546d43e31d985317234f3ea2a.jar" />
     </item>
     <item
-        jar="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/libs/internal_impl-22.0.0.jar"
+        jar="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.0.0/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
-        <dex dex="/home/soumya/Documents/web/newUniversal/android-UniversalMusicPlayer/trunk/mobile/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-fbe30cbe01282b78c9084c5a60d15fa8fa3f7d0a.jar" />
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/pre-dexed/debug/classes-3acc15d150eeb8b1dd4f136da3922a83741cee52.jar" />
+    </item>
+    <item
+        jar="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/pre-dexed/debug/classes-64d589631ef14b0971546a30f39096cdbfea2e3a.jar" />
+    </item>
+    <item
+        jar="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/pre-dexed/debug/classes-45537ac52002b6cd7a7fa5c2c75971a77a58b774.jar" />
+    </item>
+    <item
+        jar="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/pre-dexed/debug/classes-d94071130783e945797d769095102e5026798756.jar" />
+    </item>
+    <item
+        jar="/home/soumya/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd/bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-bf57b2209ffd53372bf4713d84e6d2a35673b1de.jar" />
+    </item>
+    <item
+        jar="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/pre-dexed/debug/classes-0881961871d9651d621a617af0e9373f58e8522e.jar" />
+    </item>
+    <item
+        jar="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.1.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78bfd2ec508b123ee7c03f4006ba7996ef9a8dc">
+        <dex dex="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/pre-dexed/debug/classes-67b6f1c85756889279ff28e0b43fa669bb22db34.jar" />
+    </item>
+    <item
+        jar="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/pre-dexed/debug/classes-f72ebe3d4ac5969628e38dbcb812b392a3266d9a.jar" />
+    </item>
+    <item
+        jar="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/pre-dexed/debug/classes-bd2a121925192a935f849da7a0fc3a75fbdb1285.jar" />
+    </item>
+    <item
+        jar="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/pre-dexed/debug/classes-a58f810861ddcfd95e9a4671de2dd885d26b51ff.jar" />
+    </item>
+    <item
+        jar="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/exploded-aar/CastCompanionLibrary-debug/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="aa8785edb9046d76d7bf20f925ae6d4e3907f61c">
+        <dex dex="/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/pre-dexed/debug/classes-d18fd3cc2eaf61d16b421c0f6fe209463dd1002d.jar" />
     </item>
 
 </items>

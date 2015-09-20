@@ -18,4 +18,4 @@
     <item android:state_pressed="true" android:drawable="@drawable/btn_cling_pressed"/>
     <item android:drawable="@drawable/btn_cling_normal"/>
 </selector>
-<!-- From: file:/Users/amlcurran/Projects/ShowcaseView/library/src/main/res/drawable/cling_button_bg.xml --><!-- From: file:/home/soumya/Documents/web/MyGaana-Universal/mobile/build/intermediates/exploded-aar/com.github.amlcurran.showcaseview/library/5.0.0/res/drawable/cling_button_bg.xml -->
+<!-- From: file:/Users/amlcurran/Projects/ShowcaseView/library/src/main/res/drawable/cling_button_bg.xml --><!-- From: file:/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/exploded-aar/com.github.amlcurran.showcaseview/library/5.0.0/res/drawable/cling_button_bg.xml -->

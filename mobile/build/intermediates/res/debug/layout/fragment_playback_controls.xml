@@ -69,6 +69,16 @@
             android:visibility="gone"
             android:contentDescription="@string/currently_playing_extra_info"
             android:textAppearance="?android:attr/textAppearanceSmall"/>
+        <ImageButton
+            android:id="@+id/playlist"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/item_background"
+            android:src="@drawable/ic_action"/>
     </LinearLayout>
     <ImageButton
         android:id="@+id/play_pause"
@@ -84,4 +94,4 @@
         android:tintMode="src_in"
         android:tint="@color/bt_accent"/>
 </RelativeLayout>
-<!-- From: file:/home/soumya/Documents/web/MyGaana-Universal/mobile/src/main/res/layout/fragment_playback_controls.xml -->
+<!-- From: file:/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/src/main/res/layout/fragment_playback_controls.xml -->

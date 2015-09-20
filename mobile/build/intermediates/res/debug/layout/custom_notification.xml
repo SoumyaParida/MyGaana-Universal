@@ -73,4 +73,4 @@
         android:maxLines="1"
         android:textAppearance="@style/android:TextAppearance.StatusBar.EventContent"/>
 
-</RelativeLayout><!-- From: file:/usr/local/google/home/anaddaf/Development/workspace-github/new/CastCompanionLibrary/res/layout/custom_notification.xml --><!-- From: file:/home/soumya/Documents/web/MyGaana-Universal/mobile/build/intermediates/exploded-aar/CastCompanionLibrary-debug/res/layout/custom_notification.xml -->
+</RelativeLayout><!-- From: file:/usr/local/google/home/anaddaf/Development/workspace-github/new/CastCompanionLibrary/res/layout/custom_notification.xml --><!-- From: file:/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/build/intermediates/exploded-aar/CastCompanionLibrary-debug/res/layout/custom_notification.xml -->

@@ -16,6 +16,7 @@
 
 package com.example.android.uamp.model;
 
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.support.v4.media.MediaMetadataCompat;
 
@@ -49,7 +50,13 @@ public class MusicProvider {
     private static final String TAG = LogHelper.makeLogTag(MusicProvider.class);
 
     private static final String CATALOG_URL =
-        "http://storage.googleapis.com/automotive-media/music.json";
+            "http://storage.googleapis.com/automotive-media/music.json";
+            /*"https://s3.eu-central-1.amazonaws.com/soumyamusic/music.json";*/
+            /*"file:///raw/music.json";*/
+
+
+
+        /*"http://storage.googleapis.com/automotive-media/music.json";*/
 
     public static final String CUSTOM_METADATA_TRACK_SOURCE = "__SOURCE__";
 

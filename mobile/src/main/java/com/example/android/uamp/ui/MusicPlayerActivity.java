@@ -28,6 +28,8 @@ import android.text.TextUtils;
 import com.example.android.uamp.R;
 import com.example.android.uamp.utils.LogHelper;
 
+import java.util.ArrayList;
+
 /**
  * Main activity for the music player.
  * This class hold the MediaBrowser and the MediaController instances. It will create a MediaBrowser

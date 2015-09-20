@@ -19,4 +19,4 @@
     <item android:drawable="@drawable/ic_equalizer2_white_36dp" android:duration="200"/>
     <item android:drawable="@drawable/ic_equalizer3_white_36dp" android:duration="200"/>
 </animation-list>
-<!-- From: file:/home/soumya/Documents/web/MyGaana-Universal/mobile/src/main/res/drawable/ic_equalizer_white_36dp.xml -->
+<!-- From: file:/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/src/main/res/drawable/ic_equalizer_white_36dp.xml -->

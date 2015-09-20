@@ -38,4 +38,4 @@
         android:listSelector="?android:selectableItemBackground"
         android:drawSelectorOnTop="true"/>
 </com.example.android.uamp.ui.ScrimInsetsRelativeLayout>
-<!-- From: file:/home/soumya/Documents/web/MyGaana-Universal/mobile/src/main/res/layout/include_drawerlist.xml -->
+<!-- From: file:/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/src/main/res/layout/include_drawerlist.xml -->

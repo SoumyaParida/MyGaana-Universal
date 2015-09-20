@@ -45,9 +45,28 @@
     <string name="placeholder_message">This is a placeholder for your application code.</string>
     <string name="drawer_allmusic_title">All Music</string>
     <string name="drawer_playlists_title">Playlists</string>
+    <string name="drawer_playlists_Profile">Profile</string>
     <string name="now_playing">Now Playing</string>
     <string name="background_image_str">Background image for album art</string>
     <string name="no_search_results">No search results.</string>
     <string name="loading">Loading…</string>
     <string name="media_route_menu_title">Play on…</string>
+    <string name="title_activity_login_activity">Universal Music Player</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="signed_in_as">signed in as</string>
+
+    <string name="title_activity_login_info">Universal Music Player</string>
+    <!--<string name="facebook_app_id">312054032307399</string>-->
+    <string name="twitter_consumer_key">8Gy3OKQMbKJ15BH0BferBNHEj</string>
+    <string name="twitter_consumer_secret">dSUHvkbS8xCwoS6lozPAFgDtIuKhTGkRW1OYXJqxBCMgKMyDX4</string>
+    <string name="linkedin_consumer_key">7523ssry5qk7rl</string>
+    <string name="linkedin_consumer_secret">sFyJf0ZW1lp31aGU</string>
+    <string name="title_activity_login__social">Universal Music Player</string>
+    <string name="title_activity_profile_upload">profile_upload</string>
+    <string name="signed_in_fmt">Signing in</string>
+    <string name="facebook_app_id">1706890332866138</string>
+
+
 </resources>

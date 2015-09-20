@@ -59,4 +59,4 @@
 
     <include layout="@layout/include_drawerlist"/>
 
-</android.support.v4.widget.DrawerLayout><!-- From: file:/home/soumya/Documents/web/MyGaana-Universal/mobile/src/main/res/layout/activity_player.xml -->
+</android.support.v4.widget.DrawerLayout><!-- From: file:/home/soumya/Documents/web/MyGaana-Universal/trunk/mobile/src/main/res/layout/activity_player.xml -->
